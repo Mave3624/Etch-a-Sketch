@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(0, 48, 59);
+}
 .container {
     box-sizing: content-box;
     display: flex;
@@ -11,20 +14,17 @@
     height: 500px;
     width: 500px;
     margin: 0 auto;
-    border-image: url();
 }
 
 .grid {
-    border: 1px solid rgb(3, 62, 90);
-    background-color: rgb(0, 0, 0);
-    flex: none;
+    border: 1px solid rgb(10, 52, 63);
+    background-color: rgba(53, 18, 18, 0.589);
 }
 
 .inputSection {
     margin: 20px auto;
     box-sizing: content-box;
     display: flex;
-    gap: 50px;
     justify-content: space-between;
     width: 500px;
 }
@@ -43,5 +43,12 @@
     border-radius: 5px;
     width: 50px;
     height: 20px;
-    border: 1px solid blue;
+    border: 1px solid rgb(49, 49, 116);
+    font-family: monospace;
+    font-weight: 800;
+}
+
+#input::placeholder {
+    font-family: monospace;
+    font-weight: 900;
 }
