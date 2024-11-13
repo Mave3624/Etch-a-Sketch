@@ -45,6 +45,7 @@ submit.addEventListener('click', function hi() {
     NumberOfGrid = UserInput * UserInput
     divs()
     input.value = ''
+    message.textContent = "MADE BY MAVERICK"
 })
 
 input.addEventListener('click', () => {
@@ -58,3 +59,10 @@ function randomcolor() {
     let color = Math.floor(Math.random()*256)
     return color
 }
+
+const section = document.querySelector("section")
+
+section.addEventListener('mouseover', () => {
+    section.style.border = `4px double ${'rgb('+randomcolor()+', '+randomcolor()+', '+randomcolor()+')'}`
+    section.style.transition= 'border-color 500ms linear 50ms';
+})

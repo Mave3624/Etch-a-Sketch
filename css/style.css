@@ -23,7 +23,7 @@ body {
 
 .inputSection {
     margin: 20px auto;
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -34,15 +34,15 @@ body {
     background-color: rgb(199, 199, 218);
     border-radius: 5px;
     width: 300px;
-    height: 20px;
+    height: 25px;
     border: 1px solid rgb(193, 214, 213);
 }
 
 .submit {
     display: block;
     border-radius: 5px;
-    width: 50px;
-    height: 20px;
+    width: 55px;
+    height: 25px;
     border: 1px solid rgb(49, 49, 116);
     font-family: monospace;
     font-weight: 800;
@@ -51,4 +51,12 @@ body {
 #input::placeholder {
     font-family: monospace;
     font-weight: 900;
+}
+
+section {
+    margin: 0 auto;
+    width: 600px;
+    padding: 50px 0px;
+    border: 4px double transparent;
+    border-radius: 10px;
 }
