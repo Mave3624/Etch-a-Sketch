@@ -60,3 +60,7 @@ section {
     border: 4px double transparent;
     border-radius: 10px;
 }
+
+.grid {
+    transition: background-color 400ms ease-in-out 25ms;
+}
