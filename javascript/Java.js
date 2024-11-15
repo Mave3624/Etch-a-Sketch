@@ -26,12 +26,9 @@ function colordicided() {
         let currentcolor = colorsaver.length - 1
         currentcolor = colorsaver[currentcolor]
 
-    section.addEventListener('mouseover', () => {
         section.style.border = `4px double ${currentcolor}`
         section.style.transition= 'border-color 500ms linear 50ms';
-        
     })
-})
 })
 }
 
